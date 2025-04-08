@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <firstName>Upin</firstName>
+    <lastName>Ipin</lastName>
+    <id>AI160000</id>
+    <plan>
+        <courses>
+            <course>
+                <name>Web Service Technology</name>
+                <shortName>WST</shortName>
+                <record>
+                    <grade>30</grade>
+                    <date>13/04/18</date>
+                </record>
+            </course>
+            <course>
+                <name>Special Topics in Web Technology</name>
+                <shortName>TTK-WT</shortName>
+            </course>
+        </courses>
+    </plan>
+</student>

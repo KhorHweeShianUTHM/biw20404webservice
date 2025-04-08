@@ -1,0 +1,28 @@
+<!--
+Q4: The Magnificent Enterprise company wishes to save their product 
+information in an XML file for record. The situation below can aid in the creation of the XML document .
+The root tag will be products. Each product will have its own entry with the 
+product id, production date and category. A product can be supplied for either 
+overseas or local market Country, distributor, and shipping option will be available for overseas products. 
+Then there's the distributor and state for the local product information.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product_id></product_id>
+    <production_date></production_date>
+    <category></category>
+    <description></description>
+        <product_market>
+            <market code="overseas">
+                <country></country>
+                <shipping_option></shipping_option>
+                <supplier></supplier>
+            </market>
+            <market code="local">
+                <supplier></supplier>
+                <state></state>
+            </market>
+        </product_market>
+    </product>
+</products>

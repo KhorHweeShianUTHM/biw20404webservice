@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class2022>
+    <student>
+        <firstName>Haidf</firstName>
+        <lastName>Faizi</lastName>
+        <age>18</age>
+        <studentID>S0001</studentID>
+    </student>
+
+    <student>
+        <firstName>Harraz</firstName>
+        <lastName>Khairul</lastName>
+        <age>19</age>
+        <studentID>S0002</studentID>
+    </student>
+</class2022>

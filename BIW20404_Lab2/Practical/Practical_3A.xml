@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <employee>
+        <firstName>Khor</firstName>
+        <lastName>Hwee Shian</lastName>
+        <contactNo>60164643995</contactNo>
+        <email>shian08051@gmail.com</email>
+        <address>
+            <city>Kuala Kedah</city>
+            <state>Kedah</state>
+            <zip>06600</zip>    
+        </address>
+    </employee>
+</company>

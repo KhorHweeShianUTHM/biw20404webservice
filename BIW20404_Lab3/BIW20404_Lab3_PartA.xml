@@ -1,0 +1,31 @@
+<!-- 
+For example: <student team="red">
+
+Element: student
+Attribute: team
+Attribute value: red
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<class2022>
+        <student team="red">
+            <firstName>Khor</firstName>
+            <lastName>Hwee Shian</lastName>
+            <age>24</age>
+            <studentID>S001</studentID>
+        </student>
+
+        <student team="blue">
+            <firstName>Siti</firstName>
+            <lastName>Zahra</lastName>
+            <age>22</age>
+            <studentID>S002</studentID>
+        </student>
+
+        <student team="green">
+            <firstName>John</firstName>
+            <lastName>Tan</lastName>
+            <age>20</age>
+            <studentID>S003</studentID>
+        </student>
+</class2022>

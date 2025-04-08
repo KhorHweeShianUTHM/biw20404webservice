@@ -1,0 +1,29 @@
+<!--
+Q3: Create a valid XML document containing details of a car like: id, company name, model, engine and mileage using DTD.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cars[
+<!ELEMENT cars (car+)>
+<!ELEMENT car (company, model, engine, mileage)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT engine (#PCDATA)>
+<!ELEMENT mileage (#PCDATA)>
+<!ATLAST car id CDATA #REQUIRED>
+]>
+
+    <car id="c101">
+        <company>Maruthi</company>
+        <model>Swift</model>
+        <engine>1248cc</engine>
+        <mileage>20</mileage>
+    <car>
+    <car id="c102">
+        <company>Hyundai</company>
+        <model>i20</model>
+        <engine>1000cc</engine>
+        <mileage>15</mileage>
+    <car>
+</cars>

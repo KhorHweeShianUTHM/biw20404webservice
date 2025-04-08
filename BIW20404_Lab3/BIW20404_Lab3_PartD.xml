@@ -1,0 +1,46 @@
+<!-- XML Documents with 10 element/attribute -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<alibabaStore>
+    <product id="P001">
+        <name>Wireless Headphones</name>
+        <category>Electronics</category>
+        <price currency="RMB">59.99</price>
+        <quantity>100</quantity>
+        <brand>SoundPro</brand>
+        <rating>4.5</rating>
+        <seller>GlobalTech</seller>
+        <buyItNow>true</buyItNow>
+        <shipping days="7">Free Shipping</shipping>
+    </product>
+</alibabaStore>
+
+<!-- XML schema -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="alibabaStore">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="product">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="category" type="xs:string" />
+              <xs:element name="price" type="xs:float" />
+              <xs:element name="quantity" type="xs:integer" />
+              <xs:element name="brand" type="xs:string" />
+              <xs:element name="rating" type="xs:float" />
+              <xs:element name="seller" type="xs:string" />
+              <xs:element name="buyItNow" type="xs:boolean" />
+              <xs:element name="shipping" type="xs:integer" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

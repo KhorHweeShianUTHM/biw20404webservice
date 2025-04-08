@@ -1,0 +1,19 @@
+<!-- 
+Q1: Write an XML document describing the exercises in this document: the root element is &lt;exercises&lt;. 
+The root has an attribute number that has value 1. The root element has three child elements; 
+&lt;date&lt; that contains as text the date of the exercise, and two &lt;item&lt; elements for the first two exercises (1-2). 
+Write some text in the &lt;item&lt; elements.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<exercises number="1">
+        <date>08-04-2025</date>
+        <item>
+            <course>BIW20404</course>
+            <lecturer>Dr ROSMA</lecturer>
+        </item>
+        <item>
+            <course>BIS20303</course>
+            <lecturer>Dr HAIRUL</lecturer>
+        </item>
+</exercises>

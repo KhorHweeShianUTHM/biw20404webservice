@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Khor Hwee Shian</name>
+        <fatherName>Khor Yoon Keong</fatherName>
+        <DOB>2001-08-05</DOB>
+        <ICNumber>010805010732</ICNumber>
+        <contactNumber>60164643995</contactNumber>
+        <school>
+            <class>BIW2</class>
+            <teacher>Dr Rosma</teacher>
+        </school>
+    </student>
+</students>

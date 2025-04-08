@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+    <name>Khor Hwee Shian</name>
+    <age>24</age>
+    <email>shian08051@gmail.com</email>
+    <address>
+        <street>Taman Kuala Kedah</street>
+        <city>Kuala Kedah</city>
+        <state>Kedah</state>
+        <zip>06600</zip>
+    </address>
+</person>

@@ -1,0 +1,26 @@
+<!-- 
+predix: f, h 
+namespace URI: https://www.w3schools.com/furniture, http://www.w3.org/TR/html4/
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:f="https://www.w3schools.com/furniture"
+      xmlns:h="http://www.w3.org/TR/html4/">
+    
+    <!-- f Table with XML namespace -->
+    <f:table>
+        <f:name>Countertop</f:name>
+        <f:width>10</f:width>
+        <f:length>30</f:length>
+    </f:table>
+
+    <!-- h Table with XML namespace -->
+    <h:table>
+        <h:tr>
+            <h:td>Cisco</h:td>
+            <h:td>IBM</h:td>
+            <h:td>Apple</h:td>
+        </h:tr>
+    </h:table>
+
+</root>
